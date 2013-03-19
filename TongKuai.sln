@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TongKuai.Web", "TongKuai.Web\TongKuai.Web.csproj", "{222F3F99-6FAA-475E-9617-EC0662A31C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TongKuai.Web.Tests", "TongKuai.Web.Tests\TongKuai.Web.Tests.csproj", "{441F8C06-B020-4A07-B959-40F21A32F073}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{222F3F99-6FAA-475E-9617-EC0662A31C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{222F3F99-6FAA-475E-9617-EC0662A31C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{222F3F99-6FAA-475E-9617-EC0662A31C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{222F3F99-6FAA-475E-9617-EC0662A31C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441F8C06-B020-4A07-B959-40F21A32F073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441F8C06-B020-4A07-B959-40F21A32F073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441F8C06-B020-4A07-B959-40F21A32F073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441F8C06-B020-4A07-B959-40F21A32F073}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
