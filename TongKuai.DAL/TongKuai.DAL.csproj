@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -41,6 +44,24 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TongKuai.IDAL\TongKuai.IDAL.csproj">
+      <Project>{612e25ed-82b8-4042-97a0-118379e9d0da}</Project>
+      <Name>TongKuai.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.Model\TongKuai.Model.csproj">
+      <Project>{f3b02849-f96a-45d7-824e-a0351c31d3bb}</Project>
+      <Name>TongKuai.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.Utility\TongKuai.Utility.csproj">
+      <Project>{30c7e8a1-1742-4219-b3f0-3c3477dddc8d}</Project>
+      <Name>TongKuai.Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

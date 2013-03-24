@@ -293,6 +293,32 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TongKuai.IDAL\TongKuai.IDAL.csproj">
+      <Project>{612e25ed-82b8-4042-97a0-118379e9d0da}</Project>
+      <Name>TongKuai.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.IoC\TongKuai.IoC.csproj">
+      <Project>{cbabefad-2e74-4fb9-a506-fc392dde48e7}</Project>
+      <Name>TongKuai.IoC</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.IServices\TongKuai.IServices.csproj">
+      <Project>{76d6e7f0-d135-41cb-bd4e-3fe45c5d64cc}</Project>
+      <Name>TongKuai.IServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.Model\TongKuai.Model.csproj">
+      <Project>{f3b02849-f96a-45d7-824e-a0351c31d3bb}</Project>
+      <Name>TongKuai.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.Services\TongKuai.Services.csproj">
+      <Project>{b00d0836-42a0-4925-b7ba-ee467b51fa15}</Project>
+      <Name>TongKuai.Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.Utility\TongKuai.Utility.csproj">
+      <Project>{30c7e8a1-1742-4219-b3f0-3c3477dddc8d}</Project>
+      <Name>TongKuai.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

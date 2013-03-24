@@ -42,6 +42,20 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TongKuai.IServices\TongKuai.IServices.csproj">
+      <Project>{76d6e7f0-d135-41cb-bd4e-3fe45c5d64cc}</Project>
+      <Name>TongKuai.IServices</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.Model\TongKuai.Model.csproj">
+      <Project>{f3b02849-f96a-45d7-824e-a0351c31d3bb}</Project>
+      <Name>TongKuai.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TongKuai.Utility\TongKuai.Utility.csproj">
+      <Project>{30c7e8a1-1742-4219-b3f0-3c3477dddc8d}</Project>
+      <Name>TongKuai.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
