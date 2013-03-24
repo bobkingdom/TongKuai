@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using TongKuai.IoC;
 
 namespace TongKuai.Web
 {
@@ -16,6 +17,11 @@ namespace TongKuai.Web
     {
         protected void Application_Start()
         {
+            //初始化IoC
+            IoCHelper.InitializeWith(new DependencyResolverFactory());
+            //注册自定义的控制器，使MVC控制器可以支持依赖注入
+            ControllerBuilder.Current.SetControllerFactory(new ResolverControllerFactory().GetControllerFactory());
+
             AreaRegistration.RegisterAllAreas();
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
