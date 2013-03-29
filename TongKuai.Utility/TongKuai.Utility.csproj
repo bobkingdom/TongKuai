@@ -54,6 +54,7 @@
     <Compile Include="Pager\PagerItem.cs" />
     <Compile Include="Pager\PagerOptions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RazorViewHelper.cs" />
     <Compile Include="SecurityCodeHelper.cs" />
     <Compile Include="StringHelper.cs" />
   </ItemGroup>
